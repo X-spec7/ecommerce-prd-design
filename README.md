@@ -1,0 +1,1 @@
+This is a workspace for PRD and design of the ecommerce system I am building.
