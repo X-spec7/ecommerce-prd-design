@@ -1,1 +1,1 @@
-This is a workspace for PRD and design of the ecommerce system I am building.
+This is a workspace for PRD, design and high level engineering plan of the ecommerce system I am building.
