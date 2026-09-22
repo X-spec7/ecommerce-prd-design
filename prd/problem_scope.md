@@ -22,3 +22,8 @@ Build a multi-tenant e-commerce platform that enables merchants to manage commer
 - Accounting and ERP
 - Warehouse automation
 - Advanced analytics / data warehouse
+
+## Future extensibility
+
+Although the capabilities above are out of scope for the initial version, the system should be designed so they can be introduced in the future without requiring a fundamental redesign of the core architecture.
+
