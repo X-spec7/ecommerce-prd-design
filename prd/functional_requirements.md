@@ -36,3 +36,15 @@
 - **FR-CAT-06** Customers can browse, search, and filter published products (by keyword, category, attribute, price, availability).
 - **FR-CAT-07** Merchants can bulk import and export products via CSV.
 - **FR-CAT-08** Archived products are hidden from the storefront but remain referenced by past orders.
+
+## 5. Inventory
+
+## 6. Pricing
+
+## 7. Cart & Checkout
+
+## 8. Orders
+
+## 9. Payments & Refunds
+
+## 10. Shipping & FulFillment
