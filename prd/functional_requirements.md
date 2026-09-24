@@ -25,3 +25,14 @@
 - **FR-CUS-04** Merchant staff can search, view, create, edit, and deactivate customers, and see a customer's order history.
 - **FR-CUS-05** Customers identities are per tenant: the same email at two tenants is two separate customers.
 - **FR-CUS-06** Customers can request export or deletion of their personal data; deletion anonymizes personal fields on historical orders instead of removing the orders.
+
+## 4. Product Catalog & Variants
+
+- **FR-CAT-01** Merchants can create, edit, publish, unpublish, and archive products.
+- **FR-CAT-02** A product has a title, description, media, categories/collections, tags, and custom attributes.
+- **FR-CAT-03** A product defines option axes (e.g. size, color); each purchasable combination is a variant with its own SKU, price, weight, and inventory.
+- **FR-CAT-04** SKUs are unique within a tenant.
+- **FR-CAT-05** Merchants can organize products into hierarchical categories and manual or rule-based collections.
+- **FR-CAT-06** Customers can browse, search, and filter published products (by keyword, category, attribute, price, availability).
+- **FR-CAT-07** Merchants can bulk import and export products via CSV.
+- **FR-CAT-08** Archived products are hidden from the storefront but remain referenced by past orders.
