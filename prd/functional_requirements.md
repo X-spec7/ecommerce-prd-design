@@ -39,6 +39,14 @@
 
 ## 5. Inventory
 
+- **FR-INV-01** Merchants can define one or more stock locations.
+- **FR-INV-02** Stock is tracked per variant per location as on-hand, reserved, and available, which is (on-hand - reserved).
+- **FR-INV-03** Stock is reserved when an order is placed and released when the order is cancelled or payment fails / times out.
+- **FR-INV-04** Stock is deducted from on-hand when items are fulfilled.
+- **FR-INV-05** Per variant, the merchant chooses whether to allow overselling (backorders, if so, should be able to set limit) or block checkout when unavailable.
+- **FR-INV-06** Merchants can manually adjust stock with a required reason; every change is recorded as an inventory movement.
+- **FR-INV-07** Merchants can set a low-stock threshold per variant and receive notifications when it is crossed.
+
 ## 6. Pricing
 
 ## 7. Cart & Checkout
