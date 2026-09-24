@@ -57,6 +57,11 @@
 - **FR-PRC-06** The price, discounts, and taxes applied to an order are snapshotted at checkout and do not change if the catalog or rules change later.
 
 ## 7. Cart & Checkout
+- **FR-CHK-01** Customers can add, update, and remove items in a cart; carts persist for signed-in customers across sessions.
+- **FR-CHK-02** A guest cart is merged into the customer's cart on sign-in.
+> TODO: Should determine the confirmation method.
+- **FR-CHK-03** At checkout the customer provides contact, shipping address, shipping method, billing address, and payment; the system shows an itemized total (subtotal, discounts, shipping, tax, grand total).
+- **FR-CHK-04** Checkout re-validates price, discounts, and availability before placing the order, and tells the customer about any change.
 
 ## 8. Orders
 
