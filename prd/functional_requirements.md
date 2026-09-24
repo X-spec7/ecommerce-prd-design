@@ -49,6 +49,13 @@
 
 ## 6. Pricing
 
+- **FR-PRC-01** Each variant has a base price, and optionally a compare-at price, in the tenant's currency.
+- **FR-PRC-02** Merchants can create discounts: percentage off, fixed amount off, free shipping, and buy-X-get-Y rule.
+- **FR-PRC-03** Discounts can be automatic or code-based, and can be limited by date range, minimum order value, eligible products/collections, customer, and usage count (total and per customer).
+- **FR-PRC-04** The system defines how multiple discounts combine (stacking rules) and applies them deterministically.
+- **FR-PRC-05** Taxes are calculated per order line from tax rules configured by shipping destination and product tax category; prices can be configured as tax-inclusive or tax-exclusive.
+- **FR-PRC-06** The price, discounts, and taxes applied to an order are snapshotted at checkout and do not change if the catalog or rules change later.
+
 ## 7. Cart & Checkout
 
 ## 8. Orders
