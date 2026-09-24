@@ -76,4 +76,14 @@
 
 ## 9. Payments & Refunds
 
+- **FR-PAY-01** The system integrates with external payment providers through a provider-agnostic interface; the platform never stores raw card data.
+> TODO: Consider building a simple mock stripe service.
+- **FR-PAY-02** Each tenant connects its own payment provider account(s)
+- **FR-PAY-03** Supported flows: authorize and capture together, or authorize now and capture later (e.g. at fulfillment)
+- **FR-PAY-04** Authorizations not captured within the provider's window are handled (captured, re-authorized, or voided) per tenant policy.
+- **FR-PAY-05** Merchant staff can issue full or partial refunds optionally per line item and including shipping; total refunds cannot exceed the captured amount.
+- **FR-PAY-06** Every payment operation (authorize, capture, void, refund) is recorded as a transaction with provider reference, amount, status, and timestamps.
+- **FR-PAY-07** Asynchronous provider notifications (webhooks) are processed idempotently and reconcile transaction and order payment status.
+- **FR-PAY-08** Payment failures are shown to the customer with a retry option; unpaid orders expire after a configurable timeout.
+
 ## 10. Shipping & Fulfillment
