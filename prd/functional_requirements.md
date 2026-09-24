@@ -23,7 +23,7 @@
 > TODO: Need confirmation of the orders on the verified customer side before linking orders??? Anonymous user can create guest orders with a certain email of a certain user.
 - **FR-CUS-03** Customers can save multiple shipping and billing addresses and choose a default.
 - **FR-CUS-04** Merchant staff can search, view, create, edit, and deactivate customers, and see a customer's order history.
-- **FR-CUS-05** Customers identities are per tenant: the same email at two tenants is two separate customers.
+- **FR-CUS-05** Customer identities are per tenant: the same email at two tenants is two separate customers.
 - **FR-CUS-06** Customers can request export or deletion of their personal data; deletion anonymizes personal fields on historical orders instead of removing the orders.
 
 ## 4. Product Catalog & Variants
@@ -55,4 +55,4 @@
 
 ## 9. Payments & Refunds
 
-## 10. Shipping & FulFillment
+## 10. Shipping & Fulfillment
