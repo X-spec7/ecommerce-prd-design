@@ -95,3 +95,9 @@
 - **FR-SHP-05** Carrier label purchase and live-rate lookup go through a provider-agnostic interface (integration optional in v1).
 
 > TODO: Consider building a simple mock shipping service.
+
+## 11. Notifications
+
+## 12. Audit & History
+
+## 13. Platform Administration
