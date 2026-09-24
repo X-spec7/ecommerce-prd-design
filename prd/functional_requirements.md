@@ -87,3 +87,11 @@
 - **FR-PAY-08** Payment failures are shown to the customer with a retry option; unpaid orders expire after a configurable timeout.
 
 ## 10. Shipping & Fulfillment
+
+- **FR-SHP-01** Merchant can define shipping zones (by country/region) and shipping rates per zone (flat, weight-based, or order-value-based, including free-shipping thresholds).
+- **FR-SHP-02** Checkout shows only shipping methods valid for the destination and cart.
+- **FR-SHP-03** Merchant staff can fulfill an order fully or partially, from a chosen stock location, creating a fulfillment (shipment) with the fulfilled line items.
+- **FR-SHP-04** A fulfillment records carrier, tracking number, and tracking URL, and can be marked shipped, delivered, or cancelled.
+- **FR-SHP-05** Carrier label purchase and live-rate lookup go through a provider-agnostic interface (integration optional in v1).
+
+> TODO: Consider building a simple mock shipping service.
