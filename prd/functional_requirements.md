@@ -64,6 +64,15 @@
 - **FR-CHK-04** Checkout re-validates price, discounts, and availability before placing the order, and tells the customer about any change.
 
 ## 8. Orders
+- **FR-ORD-01** Placing an order creates an order with a tenant-unique, human-readable order number.
+- **FR-ORD-02** An order has separate statuses for payment (pending, authorized, paid, partially refunded, refunded, failed), fulfillment(unfulfilled, partially fulfilled, fulfilled), and overall lifecycle (open, cancelled, closed).
+- **FR-ORD-03** Merchant staff can view, search, and filter orders, and add internal notes.
+- **FR-ORD-04** Merchant staff can edit an unfulfilled order (add/remove items, change quantities or address), with price, tax, inventory, and payment adjusted accordingly.
+> TODO: Should determine whether audit record for this will be required.
+- **FR-ORD-05** Orders can be cancelled before fulfillment; cancellation releases reserved stock and voids or refunds payment.
+- **FR-ORD-06** Merchant staff can create orders manually on behalf of a customer (draft orders) and send a payment link.
+- **FR-ORD-07** Customers can view their order history, order status, and tracking information.
+- **FR-ORD-08** Customers can request a return for fulfilled items within a merchant-configured window; merchants approve or reject it, and receiving returned items can restock them.
 
 ## 9. Payments & Refunds
 
