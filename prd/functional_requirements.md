@@ -111,3 +111,6 @@
 - **FR-AUD-04** Audit entries cannot be edited or deleted through the product.
 
 ## 13. Platform Administration
+
+- **FR-ADM-01** Platform admins can view tenants, their status, and usage.
+- **FR-ADM-02** Platform admins can access a tenant's data only through an explicit, time-limited, audited impersonation session.
