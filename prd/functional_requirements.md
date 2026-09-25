@@ -100,9 +100,14 @@
 
 - **FR-NTF-01** Customers receive transactional emails: account verification, password reset, order confirmation, shipping confirmation, cancellation, and refund etc.
 - **FR-NTF-02** Merchant staff receive notifications for new orders, low stock, and payment failures.
-- **FR-NTF-03** Tenants can customize notification templates and sender branding.
+- **FR-NTF-03** Tenants can customize notification templates and sender branding. (not included in v1)
 - **FR-NTF-04** Tenants can subscribe webhooks to domain events (e.g. order created, order paid, fulfillment created, inventory changed).
 
 ## 12. Audit & History
+
+- **FR-AUD-01** Every state-changing action by a staff user, customer, API key, or system process is recorded in an append-only audit log: actor, tenant, action, target resource, before/after values, timestamp, and request origin.
+- **FR-AUD-02** Orders show a timeline of all events (placed, paid, edited, fulfilled, refunded, notes, etc.).
+- **FR-AUD-03** Tenant admins can search and filter their tenant's audit log; platform admins can search across tenants.
+- **FR-AUD-04** Audit entries cannot be edited or deleted through the product.
 
 ## 13. Platform Administration
