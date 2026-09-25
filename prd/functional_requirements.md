@@ -98,6 +98,11 @@
 
 ## 11. Notifications
 
+- **FR-NTF-01** Customers receive transactional emails: account verification, password reset, order confirmation, shipping confirmation, cancellation, and refund etc.
+- **FR-NTF-02** Merchant staff receive notifications for new orders, low stock, and payment failures.
+- **FR-NTF-03** Tenants can customize notification templates and sender branding.
+- **FR-NTF-04** Tenants can subscribe webhooks to domain events (e.g. order created, order paid, fulfillment created, inventory changed).
+
 ## 12. Audit & History
 
 ## 13. Platform Administration
